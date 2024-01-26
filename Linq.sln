@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADelegate", "delegate\CADelegate.csproj", "{3B36484B-5A6C-4EED-9A0E-48DE224DA8F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CADelegate", "delegate\CADelegate.csproj", "{3B36484B-5A6C-4EED-9A0E-48DE224DA8F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeData", "FakeData\FakeData.csproj", "{BD7B892A-5EE7-4383-8EDC-EB8F452F0D28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeData", "FakeData\FakeData.csproj", "{BD7B892A-5EE7-4383-8EDC-EB8F452F0D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CACoreOfLinq", "CACoreOfLinq\CACoreOfLinq.csproj", "{AFA0CCF0-23B9-4F35-85B0-E4584E970779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeData02", "FakeData02\FakeData02.csproj", "{185DD648-A96B-437D-B967-3D4A79CDB8E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAProjectionOperatration", "CAProjectionOperatration\CAProjectionOperatration.csproj", "{056AA618-5270-4AAC-9237-3E374FFCC764}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{BD7B892A-5EE7-4383-8EDC-EB8F452F0D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD7B892A-5EE7-4383-8EDC-EB8F452F0D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD7B892A-5EE7-4383-8EDC-EB8F452F0D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA0CCF0-23B9-4F35-85B0-E4584E970779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA0CCF0-23B9-4F35-85B0-E4584E970779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA0CCF0-23B9-4F35-85B0-E4584E970779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA0CCF0-23B9-4F35-85B0-E4584E970779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185DD648-A96B-437D-B967-3D4A79CDB8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185DD648-A96B-437D-B967-3D4A79CDB8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185DD648-A96B-437D-B967-3D4A79CDB8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185DD648-A96B-437D-B967-3D4A79CDB8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056AA618-5270-4AAC-9237-3E374FFCC764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056AA618-5270-4AAC-9237-3E374FFCC764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056AA618-5270-4AAC-9237-3E374FFCC764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056AA618-5270-4AAC-9237-3E374FFCC764}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
