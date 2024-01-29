@@ -21,6 +21,37 @@
 
         public decimal Salary { get; set; }
 
+        // inside the class add static method for default value
+        public static Employee Default()
+        {
+            return new Employee
+            {
+                Id = 0000,
+                FirstName = "Your First Name",
+                LastName = "Your Last Name",
+                HireDate = new DateTime(),
+                Department = "Your Department",
+                Gender = "Male",
+                HasHealthInsurance = false,
+                HasPensionPlan = false,
+                Salary = 0,
+            };
+        }
+
+        // or property
+        public readonly static Employee Default01 = new Employee
+        {
+            Id = 0000,
+            FirstName = "Your First Name",
+            LastName = "Your Last Name",
+            HireDate = new DateTime(),
+            Department = "Your Department",
+            Gender = "Male",
+            HasHealthInsurance = false,
+            HasPensionPlan = false,
+            Salary = 0
+        };
+
         public override string ToString()
         {
             return

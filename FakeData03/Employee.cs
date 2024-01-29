@@ -18,7 +18,7 @@
 
             return
                     $"" +
-                    $"{String.Format("{0}", Index).PadRight(5)}" +
+                    $"{String.Format("[{0}]", Index).PadRight(5)}" +
                     $"{EmployeeNo.PadRight(13, ' ')}\t" +
                     $"{Name.PadRight(20, ' ')}\t" +
                     $"{Email.PadRight(32, ' ')}\t" +

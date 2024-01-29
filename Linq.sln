@@ -13,11 +13,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeData02", "FakeData02\Fa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAProjectionOperatration", "CAProjectionOperatration\CAProjectionOperatration.csproj", "{056AA618-5270-4AAC-9237-3E374FFCC764}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeData03", "FakeData03\FakeData03.csproj", "{E940DC11-27FC-472B-B52E-2F8C73605156}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeData03", "FakeData03\FakeData03.csproj", "{E940DC11-27FC-472B-B52E-2F8C73605156}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASortingData", "CASortingData\CASortingData.csproj", "{5E8A630E-0D8F-4FEF-BF94-9643D3529C36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CASortingData", "CASortingData\CASortingData.csproj", "{5E8A630E-0D8F-4FEF-BF94-9643D3529C36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADataPartitioning", "CADataPartitioning\CADataPartitioning.csproj", "{E27B1C44-A51B-426B-AE10-EBFEB772C9A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CADataPartitioning", "CADataPartitioning\CADataPartitioning.csproj", "{E27B1C44-A51B-426B-AE10-EBFEB772C9A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAQuantifiers", "CAQuantifiers\CAQuantifiers.csproj", "{1E1E8693-8A02-46EA-AA5E-13BD57E544D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAGrouping Data", "CAGrouping Data\CAGrouping Data.csproj", "{F8DC9E91-B3CD-45C8-AF4D-B196F2CAABFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAJoinOperations", "CAJoinOperations\CAJoinOperations.csproj", "{CB77AE0C-7069-41A8-BC23-9F2B646EEE76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAGenerationOperations", "CAGenerationOperations\CAGenerationOperations.csproj", "{87F2C7AE-F75A-4702-B63D-7BDC4D84FA2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAElementOperations", "CAElementOperations\CAElementOperations.csproj", "{EE1DE169-BB48-44D6-9484-4B86CEAF7447}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +67,26 @@ Global
 		{E27B1C44-A51B-426B-AE10-EBFEB772C9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E27B1C44-A51B-426B-AE10-EBFEB772C9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E27B1C44-A51B-426B-AE10-EBFEB772C9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1E8693-8A02-46EA-AA5E-13BD57E544D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1E8693-8A02-46EA-AA5E-13BD57E544D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1E8693-8A02-46EA-AA5E-13BD57E544D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1E8693-8A02-46EA-AA5E-13BD57E544D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DC9E91-B3CD-45C8-AF4D-B196F2CAABFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DC9E91-B3CD-45C8-AF4D-B196F2CAABFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DC9E91-B3CD-45C8-AF4D-B196F2CAABFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DC9E91-B3CD-45C8-AF4D-B196F2CAABFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB77AE0C-7069-41A8-BC23-9F2B646EEE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB77AE0C-7069-41A8-BC23-9F2B646EEE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB77AE0C-7069-41A8-BC23-9F2B646EEE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB77AE0C-7069-41A8-BC23-9F2B646EEE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F2C7AE-F75A-4702-B63D-7BDC4D84FA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F2C7AE-F75A-4702-B63D-7BDC4D84FA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F2C7AE-F75A-4702-B63D-7BDC4D84FA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F2C7AE-F75A-4702-B63D-7BDC4D84FA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1DE169-BB48-44D6-9484-4B86CEAF7447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1DE169-BB48-44D6-9484-4B86CEAF7447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1DE169-BB48-44D6-9484-4B86CEAF7447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1DE169-BB48-44D6-9484-4B86CEAF7447}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
